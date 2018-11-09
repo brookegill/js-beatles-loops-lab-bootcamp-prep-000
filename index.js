@@ -13,8 +13,13 @@ function johnLennonFacts(facts) {
   let i = 0;
 
   while (i < facts.length) {
+<<<<<<< HEAD
     newFacts.push(facts[i] + "!!!");
     i++;
+=======
+    newFacts.push( newFacts + "!!!");
+    i++ ;
+>>>>>>> 3ee16e630716aaaa7fb993b164ef9560a4c5f0c1
   }
 
   return newFacts;
